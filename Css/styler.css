@@ -5,9 +5,6 @@
   color: #353535;
   font-family: 'Shadows Into Light', cursive; }
 
-h1 {
-  font-size: 2rem; }
-
 header {
   display: flex;
   justify-content: space-between;
@@ -16,15 +13,12 @@ header {
   gap: 10px;
   height: 60px; }
 
-.background {
-  background-color: #F5ECD7; }
+.Cabecera {
+  padding-left: 40px; }
 
 a {
   text-decoration: none;
   color: #353535; }
-
-.Cabecera {
-  padding-left: 40px; }
 
 ul {
   display: flex;
@@ -32,12 +26,22 @@ ul {
   gap: 6px;
   padding-right: 40px; }
 
+h1 {
+  font-size: 2rem; }
+
+.background {
+  background-color: #F5ECD7; }
+
 .titulo {
   padding: 10px 40px; }
 
 section {
   border-radius: 5px;
   background-color: #EADCBD; }
+
+section img {
+  width: 400px;
+  height: 300px; }
 
 .pcard {
   display: flex;
@@ -55,10 +59,6 @@ section {
   overflow: hidden;
   border-radius: 5px;
   margin-top: 20px; }
-
-section img {
-  width: 400px;
-  height: 300px; }
 
 .about-1 {
   margin-top: 150px;
@@ -86,13 +86,6 @@ section img {
   width: 200px;
   height: 200px; }
 
-footer {
-  background-color: #c2baa6;
-  text-align: center; }
-
-footer img {
-  width: 20px; }
-
 .location {
   display: flex;
   overflow: scroll;
@@ -108,22 +101,6 @@ iframe {
 
 .location section {
   padding-left: 10px; }
-
-.login-flex {
-  /* background-color: #c2baa6; */
-  margin: 40px;
-  padding-top: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
-  font-size: 40px;
-  height: 600px; }
-
-.footer-login {
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
 
 .grid {
   background-color: #F5ECD7;
@@ -229,6 +206,29 @@ form {
   background-color: #F5ECD7;
   text-align: center;
   padding: 20px 0 20px 0; }
+
+.login-flex {
+  /* background-color: #c2baa6; */
+  margin: 40px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: 40px;
+  height: 600px; }
+
+footer {
+  background-color: #c2baa6;
+  text-align: center; }
+
+footer img {
+  width: 20px; }
+
+.footer-login {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 @media (max-width: 1190px) {
   .grid div {

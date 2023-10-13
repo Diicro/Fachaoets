@@ -1,0 +1,122 @@
+@media (max-width: 540px) {
+    .grid{
+        background-color: #F5ECD7;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 80px 280px 80px 280px 80px 280px;
+        grid-template-areas:
+        "Trending Trending "
+        "product-1  product-3"
+        "katty       katty" 
+        "product-4  product-6"
+        "doggy        doggy"
+        "product-7  product-9";
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .product-2{
+        display: none;
+    }
+    .product-5{
+        display: none;
+    }
+    .product-8{
+    display: none;
+    }
+    header{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c2baa6;
+        height: 100px; 
+        
+    }
+    .Cabecera {
+        padding-left: 0px; 
+        
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 6px;
+        padding-right: 0px;
+        font-size: 1.2rem;
+    }
+    
+    .grid h1{
+        padding-left: 0px;
+        justify-self: center;
+    }
+    
+    .grid div{
+        width: 80%;
+        height: 280px;
+        
+    }
+    section img{
+        width: 100%;
+        height: 280px;
+    }
+    
+    .img-about{
+        margin: auto;
+        left: 0;
+        right: 0;
+        
+    }
+    
+    .about{
+        
+        margin-top: 150px;
+        padding: 100px 0px 10px 0px;
+        overflow: visible;
+        height: auto;
+    
+    }
+    .titulo{
+        text-align: center;
+    }
+    .grid div:hover{
+        box-shadow: 5px 5px 10px  #5a4343;
+        height: 280px;
+    
+    }
+    .location{
+        display: block;
+        overflow: visible;
+    }
+    iframe{
+        height: 250px;
+        
+    }
+    .look-d{
+        align-items: center;
+        background-color: #EADCBD;
+        margin: 0px 10px 0px 10px;
+        padding-top: 2px;
+    }
+    .look{
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .look-d{
+        flex-direction: column;
+    }
+    .look div img{
+        width: 75px;
+        height: 50px;
+    }
+    .look-1 img{
+        width: 350PX;
+        height: 200PX;
+        padding: 0px;
+        
+    }
+    }

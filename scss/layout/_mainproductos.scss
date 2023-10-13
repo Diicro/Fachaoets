@@ -1,0 +1,62 @@
+.grid{
+    background-color: #F5ECD7;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 300px 80px 300px 80px 300px;
+    grid-template-areas:
+    "Trending Trending Trending"
+    "product-1 product-2 product-3"
+    "katty    katty    katty" 
+    "product-4 product-5 product-6"
+    "doggy    doggy    doggy"
+    "product-7 product-8 product-9";
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid h1{
+    justify-self: left;
+    padding-left: 40px;
+}
+.grid div:hover{
+    box-shadow: 5px 5px 10px  #5a4343;
+    height: 300px;
+
+}
+
+.Trending{
+    grid-area: Trending;
+}
+.katty{
+    grid-area: katty;
+}
+.doggy{
+    grid-area: doggy;
+}
+.products-1{
+    grid-area: product-1;
+}
+.products-2{
+    grid-area: product-2;
+}
+.products-3{
+    grid-area: product-3;
+}
+.products-4{
+    grid-area: product-4;
+}
+.products-5{
+    grid-area: product-5;
+}
+.products-6{
+    grid-area: procuct-6;
+}
+.products-7{
+    grid-area: procuct-7;
+}.products-8{
+    grid-area: procuct-8;
+}.products-9{
+    grid-area: procuct-9;
+}

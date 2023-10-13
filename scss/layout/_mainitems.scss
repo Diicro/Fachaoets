@@ -1,0 +1,57 @@
+
+.titulo-1{
+    padding: 10PX 0PX 15PX 0;
+    text-align: center;
+}
+.look-1{
+    display: flex;
+    background-color: #F5ECD7;
+    }
+.look-1 div{
+    background-color: #EADCBD;
+    }
+.look-1 img{
+    padding: 10px 0px 10px 10px;
+    width: 600px;
+    height: 450px;
+    
+}
+.look-d{
+    display: flex;
+}
+.look{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    border-radius: 0px 5px 5px 0;
+    
+    
+}
+.look div img{
+    width: 100px;
+    height: 75px;
+}
+.description-1{
+    background-color: #F5ECD7;
+    text-align: center; 
+    
+}
+
+.products{
+    padding:15PX 0 15PX 0 ;
+    text-align: center;
+    background-color: #F5ECD7;
+
+}
+
+form{ 
+    background-color: #F5ECD7;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+.button{
+    background-color: #F5ECD7;
+    text-align: center ;
+    padding: 20px 0 20px 0;}

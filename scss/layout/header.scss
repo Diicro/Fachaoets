@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c2baa6;
+    gap: 10px;
+    height: 60px; 
+    
+}
+.Cabecera {
+    padding-left: 40px; 
+}a{
+    text-decoration: none;
+    color: #353535;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 6px;
+    padding-right: 40px;
+    
+}
+h1{
+    font-size: 2rem;
+}

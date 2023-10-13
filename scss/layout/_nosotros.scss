@@ -1,0 +1,45 @@
+.about-1{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    padding-top: 100px;
+}
+.about{
+     display: flex;
+    margin: 100px 20px 100px 20px;
+    padding: 100px 15px 5px 200px;
+    height: auto;
+    align-items: center;
+    overflow: visible;
+    
+}
+.img-about {
+    position: absolute;
+    overflow: hidden;
+    width: 200px;   
+    height: 200px;
+    border-radius: 80px;
+    margin-left: 40px;
+    }
+.img-about img{
+    width: 200px;
+    height: 200px;
+}
+.location{
+    display: flex;
+    overflow: scroll;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+iframe{
+    box-shadow: 5px 5px 10px  #5a4343 ; 
+    padding: 2.5px;
+}
+.location section{
+    padding-left: 10px;
+    
+    
+}

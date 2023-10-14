@@ -1,0 +1,15 @@
+@mixin flex ($direction,$over,$align){
+    display: flex;
+    flex-direction: $direction;
+    overflow: $over;
+    align-items: $align;
+}
+@mixin grid($columns,$rows){
+    display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 80px 280px 80px 280px 80px 280px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+}

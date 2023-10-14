@@ -1,10 +1,7 @@
 @media (max-width: 540px) {
     .grid{
         background-color: #F5ECD7;
-        display: grid;
-        width: 100%;
-        grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 80px 280px 80px 280px 80px 280px;
+        @include grid;
         grid-template-areas:
         "Trending Trending "
         "product-1  product-3"
@@ -12,9 +9,7 @@
         "product-4  product-6"
         "doggy        doggy"
         "product-7  product-9";
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
+        
         margin-bottom: 50px;
     }
     

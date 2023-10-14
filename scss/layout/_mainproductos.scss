@@ -1,9 +1,6 @@
 .grid{
     background-color: #F5ECD7;
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 80px 300px 80px 300px 80px 300px;
+    @include grid (1fr 1fr 1fr,80px 300px 80px 300px 80px 300px);
     grid-template-areas:
     "Trending Trending Trending"
     "product-1 product-2 product-3"
@@ -11,9 +8,7 @@
     "product-4 product-5 product-6"
     "doggy    doggy    doggy"
     "product-7 product-8 product-9";
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
+    
 }
 
 .grid h1{

@@ -1,7 +1,7 @@
 @media (max-width: 540px) {
     .grid{
-        background-color: #F5ECD7;
-        @include grid;
+        background-color: map-get($bg-color, bg-main );
+        @include grid (1fr 1fr,80px 280px 80px 280px 80px 280px);
         grid-template-areas:
         "Trending Trending "
         "product-1  product-3"
@@ -28,7 +28,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #c2baa6;
+        background-color: map-get($bg-color, bg-navfoot );
         height: 100px; 
         
     }
@@ -92,7 +92,7 @@
     }
     .look-d{
         align-items: center;
-        background-color: #EADCBD;
+        background-color: map-get($bg-color, bg-section );
         margin: 0px 10px 0px 10px;
         padding-top: 2px;
     }

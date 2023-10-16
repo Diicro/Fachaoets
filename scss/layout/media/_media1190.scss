@@ -1,10 +1,8 @@
 @media (max-width: 1190px){
-    .grid div{
-        width: 90%;
-        height: 200px;
-        overflow: hidden;
+    .grid{
+    @include grid (1fr 1fr 1fr,80px 200px 80px 200px 80px 200px);
     
-    }
+}   
     
     .grid div:hover{
         box-shadow: 5px 5px 10px  #5a4343;

@@ -1,5 +1,5 @@
 .grid{
-    background-color: #F5ECD7;
+    background-color: map-get($bg-color, bg-main );
     @include grid (1fr 1fr 1fr,80px 300px 80px 300px 80px 300px);
     grid-template-areas:
     "Trending Trending Trending"

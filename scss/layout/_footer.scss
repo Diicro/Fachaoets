@@ -1,5 +1,5 @@
 footer{
-    background-color: #c2baa6;
+    background-color: map-get($bg-color ,bg-navfoot);
     text-align: center;
 }
 footer img{

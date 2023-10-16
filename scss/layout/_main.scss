@@ -1,11 +1,11 @@
 .background {
-    background-color: #F5ECD7;
+    background-color: map-get($bg-color,bg-main);
 }.titulo{
     padding: 10px 40px;
 }
 section{
     border-radius: 5px;
-    background-color: #EADCBD;
+    background-color: map-get($bg-color,bg-section);
 }
 section img{
     width: 400px;

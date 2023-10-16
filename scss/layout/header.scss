@@ -2,7 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #c2baa6;
+    background-color: map-get($bg-color ,bg-navfoot);
     gap: 10px;
     height: 60px; 
 }

@@ -6,31 +6,30 @@
 .look-1{
     display: flex;
     background-color: map-get($bg-color,bg-main );
-    }
-.look-1 div{
-    background-color: map-get($bg-color, bg-section);
-    }
-.look-1 img{
-    padding: 10px 0px 10px 10px;
-    width: 600px;
-    height: 450px;
-    
-}
-.look-d{
+    .look-d{
     display: flex;
+
+        div{
+            background-color: map-get($bg-color, bg-section);
+            img{
+                padding: 10px 0px 10px 10px;
+                width: 600px;
+                height: 450px;
+    }
+    }
+        .look{
+        display: flex;
+        flex-direction: column;
+        padding-right: 10px;
+        border-radius: 0px 5px 5px 0;
+        div img{
+            width: 100px;
+            height: 75px;
+        }
 }
-.look{
-    display: flex;
-    flex-direction: column;
-    padding-right: 10px;
-    border-radius: 0px 5px 5px 0;
-    
-    
 }
-.look div img{
-    width: 100px;
-    height: 75px;
 }
+
 .description-1{
     text-align: center;
     background-color: map-get($bg-color,bg-main );

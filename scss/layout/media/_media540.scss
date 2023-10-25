@@ -10,18 +10,36 @@
         "doggy        doggy"
         "product-7  product-9";
         
-        margin-bottom: 50px;
+        margin-bottom: 50px; 
+        .product-2{
+        display: none;
+    }
+        .product-5{
+        display: none;
+    }
+        .product-8{
+        display: none;
+    } 
+        h2{
+            padding-left: 0px;
+            justify-self: center;
+    }
+        div{
+            &:hover{
+            box-shadow: 5px 5px 10px  #5a4343;
+            height: 280px;
+            }
+            width: 80%;
+            height: 280px;
+            img{
+                width: 100%;
+                height: 280px;
+            }
+        
+    }
     }
     
-    .product-2{
-        display: none;
-    }
-    .product-5{
-        display: none;
-    }
-    .product-8{
-    display: none;
-    }
+   
     header{
         width: 100%;
         flex-direction: column;
@@ -30,35 +48,20 @@
         align-items: center;
         background-color: map-get($bg-color, bg-navfoot );
         height: 100px; 
+        .Cabecera {
+            padding-left: 0px; 
+            
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 6px;
+            padding-right: 0px;
+            font-size: 1.2rem;
+        }
         
     }
-    .Cabecera {
-        padding-left: 0px; 
-        
-    }
-    ul{
-        display: flex;
-        list-style: none;
-        gap: 6px;
-        padding-right: 0px;
-        font-size: 1.2rem;
-    }
-    
-    .grid h1{
-        padding-left: 0px;
-        justify-self: center;
-    }
-    
-    .grid div{
-        width: 80%;
-        height: 280px;
-        
-    }
-    section img{
-        width: 100%;
-        height: 280px;
-    }
-    
+
     .img-about{
         margin: auto;
         left: 0;
@@ -77,41 +80,41 @@
     .titulo{
         text-align: center;
     }
-    .grid div:hover{
-        box-shadow: 5px 5px 10px  #5a4343;
-        height: 280px;
     
-    }
     .location{
         display: block;
         overflow: visible;
-    }
-    iframe{
+        iframe{
         height: 250px;
         
     }
-    .look-d{
+    }
+    .look-1{ 
         align-items: center;
         background-color: map-get($bg-color, bg-section );
         margin: 0px 10px 0px 10px;
-        padding-top: 2px;
-    }
-    .look{
-        flex-direction: row;
-        justify-content: center;
-        
-    }
-    .look-d{
+        padding-top: 2px; 
         flex-direction: column;
-    }
-    .look div img{
-        width: 75px;
-        height: 50px;
-    }
-    .look-1 img{
-        width: 350PX;
-        height: 200PX;
-        padding: 0px;
         
+        .look-d{
+            flex-direction: column;
+            text-align: center;
+            div{
+                img{
+                max-width: 400px;
+                width: 100%;
+                height: 200PX;
+                padding: 10px;
+            }}
+            .look{
+            flex-direction: row;
+            justify-content: center;
+                div img{ 
+                    padding: 0;
+                    width: 75px;
+                    height: 50px;
     }
     }
+}   
+}
+}

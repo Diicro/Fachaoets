@@ -5,9 +5,9 @@
 }
 section{
     border-radius: 5px;
-    background-color: map-get($bg-color,bg-section);
-}
-section img{
+    background-color: map-get($bg-color,bg-section); 
+        img{
     width: 400px;
     height: 300px;
-}  
+} 
+}

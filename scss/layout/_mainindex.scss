@@ -4,16 +4,13 @@
     justify-content: space-evenly;
     overflow: hidden;
     height: 330px;
-        
-}
-.card:hover{
+    .card{
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 5px;
+        margin-top: 20px;
+        &:hover{
     box-shadow: 5px 5px 10px  #5a4343 ; 
+}}}
 
-}
-.card{
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 5px;
-    margin-top: 20px;
-}

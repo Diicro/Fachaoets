@@ -8,50 +8,50 @@
     "product-4 product-5 product-6"
     "doggy    doggy    doggy"
     "product-7 product-8 product-9";
+    h1{
+        justify-self: left;
+        padding-left: 40px;
+    }
+    div:hover{
+        box-shadow: 5px 5px 10px  #5a4343;
+        height: 300px;
     
-}
-
-.grid h1{
-    justify-self: left;
-    padding-left: 40px;
-}
-.grid div:hover{
-    box-shadow: 5px 5px 10px  #5a4343;
-    height: 300px;
-
-}
-
-.Trending{
+    }
+        .Trending{
     grid-area: Trending;
 }
-.katty{
+    .katty{
     grid-area: katty;
 }
-.doggy{
+    .doggy{
     grid-area: doggy;
 }
-.products-1{
+    .products-1{
     grid-area: product-1;
 }
-.products-2{
+    .products-2{
     grid-area: product-2;
 }
-.products-3{
+    .products-3{
     grid-area: product-3;
 }
-.products-4{
+    .products-4{
     grid-area: product-4;
 }
-.products-5{
+    .products-5{
     grid-area: product-5;
 }
-.products-6{
+    .products-6{
     grid-area: procuct-6;
 }
-.products-7{
+    .products-7{
     grid-area: procuct-7;
-}.products-8{
+}    
+    .products-8{
     grid-area: procuct-8;
-}.products-9{
+}   
+    .products-9{
     grid-area: procuct-9;
 }
+}
+

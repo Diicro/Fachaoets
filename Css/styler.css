@@ -38,10 +38,9 @@ h1 {
 section {
   border-radius: 5px;
   background-color: #EADCBD; }
-
-section img {
-  width: 400px;
-  height: 300px; }
+  section img {
+    width: 400px;
+    height: 300px; }
 
 .pcard {
   display: flex;
@@ -49,16 +48,14 @@ section img {
   justify-content: space-evenly;
   overflow: hidden;
   height: 330px; }
-
-.card:hover {
-  box-shadow: 5px 5px 10px  #5a4343; }
-
-.card {
-  width: 400px;
-  height: 300px;
-  overflow: hidden;
-  border-radius: 5px;
-  margin-top: 20px; }
+  .pcard .card {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 20px; }
+    .pcard .card:hover {
+      box-shadow: 5px 5px 10px  #5a4343; }
 
 .about-1 {
   margin-top: 150px;
@@ -76,10 +73,6 @@ section img {
   height: auto;
   align-items: center; }
 
-.img-about img {
-  width: 200px;
-  height: 200px; }
-
 .img-about {
   position: absolute;
   overflow: hidden;
@@ -87,23 +80,24 @@ section img {
   height: 200px;
   border-radius: 80px;
   margin-left: 40px; }
+  .img-about img {
+    width: 200px;
+    height: 200px; }
 
 .location {
   display: flex;
   flex-direction: row;
-  overflow: scroll;
+  overflow: hidden;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 100px;
   border-radius: 5px;
   text-align: center; }
-
-iframe {
-  box-shadow: 5px 5px 10px  #5a4343;
-  padding: 2.5px; }
-
-.location section {
-  padding-left: 10px; }
+  .location iframe {
+    box-shadow: 5px 5px 10px  #5a4343;
+    padding: 2.5px; }
+  .location section {
+    padding-left: 10px; }
 
 .grid {
   background-color: #F5ECD7;
@@ -115,50 +109,36 @@ iframe {
   align-items: center;
   justify-items: center;
   grid-template-areas: "Trending Trending Trending" "product-1 product-2 product-3" "katty    katty    katty"  "product-4 product-5 product-6" "doggy    doggy    doggy" "product-7 product-8 product-9"; }
-
-.grid h1 {
-  justify-self: left;
-  padding-left: 40px; }
-
-.grid div:hover {
-  box-shadow: 5px 5px 10px  #5a4343;
-  height: 300px; }
-
-.Trending {
-  grid-area: Trending; }
-
-.katty {
-  grid-area: katty; }
-
-.doggy {
-  grid-area: doggy; }
-
-.products-1 {
-  grid-area: product-1; }
-
-.products-2 {
-  grid-area: product-2; }
-
-.products-3 {
-  grid-area: product-3; }
-
-.products-4 {
-  grid-area: product-4; }
-
-.products-5 {
-  grid-area: product-5; }
-
-.products-6 {
-  grid-area: procuct-6; }
-
-.products-7 {
-  grid-area: procuct-7; }
-
-.products-8 {
-  grid-area: procuct-8; }
-
-.products-9 {
-  grid-area: procuct-9; }
+  .grid h1 {
+    justify-self: left;
+    padding-left: 40px; }
+  .grid div:hover {
+    box-shadow: 5px 5px 10px  #5a4343;
+    height: 300px; }
+  .grid .Trending {
+    grid-area: Trending; }
+  .grid .katty {
+    grid-area: katty; }
+  .grid .doggy {
+    grid-area: doggy; }
+  .grid .products-1 {
+    grid-area: product-1; }
+  .grid .products-2 {
+    grid-area: product-2; }
+  .grid .products-3 {
+    grid-area: product-3; }
+  .grid .products-4 {
+    grid-area: product-4; }
+  .grid .products-5 {
+    grid-area: product-5; }
+  .grid .products-6 {
+    grid-area: procuct-6; }
+  .grid .products-7 {
+    grid-area: procuct-7; }
+  .grid .products-8 {
+    grid-area: procuct-8; }
+  .grid .products-9 {
+    grid-area: procuct-9; }
 
 .titulo-1 {
   padding: 10PX 0PX 15PX 0;
@@ -167,27 +147,22 @@ iframe {
 .look-1 {
   display: flex;
   background-color: #F5ECD7; }
-
-.look-1 div {
-  background-color: #EADCBD; }
-
-.look-1 img {
-  padding: 10px 0px 10px 10px;
-  width: 600px;
-  height: 450px; }
-
-.look-d {
-  display: flex; }
-
-.look {
-  display: flex;
-  flex-direction: column;
-  padding-right: 10px;
-  border-radius: 0px 5px 5px 0; }
-
-.look div img {
-  width: 100px;
-  height: 75px; }
+  .look-1 .look-d {
+    display: flex; }
+    .look-1 .look-d div {
+      background-color: #EADCBD; }
+      .look-1 .look-d div img {
+        padding: 10px 0px 10px 10px;
+        width: 600px;
+        height: 450px; }
+    .look-1 .look-d .look {
+      display: flex;
+      flex-direction: column;
+      padding-right: 10px;
+      border-radius: 0px 5px 5px 0; }
+      .look-1 .look-d .look div img {
+        width: 100px;
+        height: 75px; }
 
 .description-1, .products, .button {
   text-align: center;
@@ -220,11 +195,10 @@ form {
 footer {
   background-color: #c2baa6;
   text-align: center; }
+  footer img {
+    width: 20px; }
 
-footer img {
-  width: 20px; }
-
-.footer-login {
+footer .footer-login {
   position: absolute;
   bottom: 0;
   width: 100%; }
@@ -234,22 +208,19 @@ footer img {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 80px 200px 80px 200px 80px 200px;
+    grid-template-rows: 80px 250px 80px 250px 80px 250px;
     justify-content: center;
     align-items: center;
     justify-items: center; }
-  .grid div:hover {
-    box-shadow: 5px 5px 10px  #5a4343;
-    height: 200px; }
-  section img {
-    width: 100%;
-    height: 200px; }
-  .card img {
-    width: 100%;
-    height: 250px; }
-  .grid h1 {
-    justify-self: unset;
-    padding: 0; }
+    .grid h2 {
+      justify-self: unset;
+      padding: 0; }
+    .grid div:hover {
+      box-shadow: 5px 5px 10px  #5a4343;
+      height: 250px; }
+    .grid div img {
+      width: 100%;
+      height: 250px; }
   .pcard {
     display: flex;
     flex-wrap: wrap;
@@ -257,12 +228,15 @@ footer img {
     overflow: hidden;
     height: 280px;
     width: 100%; }
-  .card {
-    width: 300px;
-    height: 250px;
-    overflow: hidden;
-    border-radius: 5px;
-    margin-top: 20px; }
+    .pcard .card {
+      width: 300px;
+      height: 250px;
+      overflow: hidden;
+      border-radius: 5px;
+      margin-top: 20px; }
+      .pcard .card img {
+        width: 100%;
+        height: 250px; }
   .img-about {
     right: 0;
     left: 0;
@@ -275,17 +249,17 @@ footer img {
     height: auto;
     margin-top: 150px;
     margin-bottom: 100px; }
-  .look-1 img {
+  .look-1 .look-d div img {
     width: 400PX;
     height: 250PX; } }
 
 @media (max-width: 900px) {
   .look-1 {
     display: block; }
-  .look-d {
-    display: flex;
-    background-color: #F5ECD7;
-    justify-content: center; } }
+    .look-1 .look-d {
+      display: flex;
+      background-color: #F5ECD7;
+      justify-content: center; } }
 
 @media (max-width: 540px) {
   .grid {
@@ -299,12 +273,24 @@ footer img {
     justify-items: center;
     grid-template-areas: "Trending Trending " "product-1  product-3" "katty       katty"  "product-4  product-6" "doggy        doggy" "product-7  product-9";
     margin-bottom: 50px; }
-  .product-2 {
-    display: none; }
-  .product-5 {
-    display: none; }
-  .product-8 {
-    display: none; }
+    .grid .product-2 {
+      display: none; }
+    .grid .product-5 {
+      display: none; }
+    .grid .product-8 {
+      display: none; }
+    .grid h2 {
+      padding-left: 0px;
+      justify-self: center; }
+    .grid div {
+      width: 80%;
+      height: 280px; }
+      .grid div:hover {
+        box-shadow: 5px 5px 10px  #5a4343;
+        height: 280px; }
+      .grid div img {
+        width: 100%;
+        height: 280px; }
   header {
     width: 100%;
     flex-direction: column;
@@ -313,23 +299,14 @@ footer img {
     align-items: center;
     background-color: #c2baa6;
     height: 100px; }
-  .Cabecera {
-    padding-left: 0px; }
-  ul {
-    display: flex;
-    list-style: none;
-    gap: 6px;
-    padding-right: 0px;
-    font-size: 1.2rem; }
-  .grid h1 {
-    padding-left: 0px;
-    justify-self: center; }
-  .grid div {
-    width: 80%;
-    height: 280px; }
-  section img {
-    width: 100%;
-    height: 280px; }
+    header .Cabecera {
+      padding-left: 0px; }
+    header ul {
+      display: flex;
+      list-style: none;
+      gap: 6px;
+      padding-right: 0px;
+      font-size: 1.2rem; }
   .img-about {
     margin: auto;
     left: 0;
@@ -341,28 +318,29 @@ footer img {
     height: auto; }
   .titulo {
     text-align: center; }
-  .grid div:hover {
-    box-shadow: 5px 5px 10px  #5a4343;
-    height: 280px; }
   .location {
     display: block;
     overflow: visible; }
-  iframe {
-    height: 250px; }
-  .look-d {
+    .location iframe {
+      height: 250px; }
+  .look-1 {
     align-items: center;
     background-color: #EADCBD;
     margin: 0px 10px 0px 10px;
-    padding-top: 2px; }
-  .look {
-    flex-direction: row;
-    justify-content: center; }
-  .look-d {
+    padding-top: 2px;
     flex-direction: column; }
-  .look div img {
-    width: 75px;
-    height: 50px; }
-  .look-1 img {
-    width: 350PX;
-    height: 200PX;
-    padding: 0px; } }
+    .look-1 .look-d {
+      flex-direction: column;
+      text-align: center; }
+      .look-1 .look-d div img {
+        max-width: 400px;
+        width: 100%;
+        height: 200PX;
+        padding: 10px; }
+      .look-1 .look-d .look {
+        flex-direction: row;
+        justify-content: center; }
+        .look-1 .look-d .look div img {
+          padding: 0;
+          width: 75px;
+          height: 50px; } }

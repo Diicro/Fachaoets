@@ -1,11 +1,11 @@
 @media (max-width: 900px){ 
     .look-1 {
         display: block;
-    }
-    .look-d{
-        display: flex;
-        background-color: map-get($bg-color, bg-main );
-        justify-content: center;
+            .look-d{
+                display: flex;
+                background-color: map-get($bg-color, bg-main );
+                justify-content: center;
     
+    }
     }
     }

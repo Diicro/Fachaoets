@@ -13,10 +13,7 @@
     
     
 }
-.img-about img{
-    width: 200px;
-    height: 200px;
-}
+
 .img-about {
     position: absolute;
     overflow: hidden;
@@ -24,19 +21,22 @@
     height: 200px;
     border-radius: 80px;
     margin-left: 40px;
+    img{
+        width: 200px;
+        height: 200px;
+    }
     }
 
 .location{
-    @include flex(row,scroll,center);
+    @include flex(row,hidden,center);
     margin-top:20px;
     margin-bottom: 100px;
     border-radius: 5px;
     text-align: center;
+        iframe{
+        box-shadow: 5px 5px 10px  #5a4343 ; 
+        padding: 2.5px;}
+        section{
+        padding-left: 10px;}
 }
-iframe{
-    box-shadow: 5px 5px 10px  #5a4343 ; 
-    padding: 2.5px;
-}
-.location section{
-    padding-left: 10px;
-}
+

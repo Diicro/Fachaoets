@@ -1,4 +1,5 @@
 .login-flex{
+    
     /* background-color: #c2baa6; */
     margin: 40px;
     padding-top: 40px;
@@ -7,7 +8,16 @@
     align-items: center;
     justify-content: start;
     font-size: 40px;
-    height: 600px;
+    height: 80vh;
+    form{
+        background-color: map-get($bg-color,bg-section );
+        display: block;
+        width: auto;
+    }
 }
-
+.login-flex * {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
 

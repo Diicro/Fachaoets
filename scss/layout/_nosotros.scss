@@ -3,13 +3,21 @@
     margin-bottom: 100px;
     display: flex;
     padding-top: 100px;
+    flex-direction: column;
+    p{
+        margin-bottom: 15px;
+        text-align: center;
+     }
 }
 .about{
-    @include flex (row,visible,center);
+    @include flex (column,visible,center);
     margin: 100px 20px 100px 20px;
     padding: 100px 15px 5px 200px;
     height: auto;
     align-items: center;
+    p{
+        margin-bottom: 15px;
+    }
     
     
 }

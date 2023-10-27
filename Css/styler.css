@@ -35,7 +35,11 @@ h1 {
 .titulo {
   padding: 10px 40px; }
 
+h2 {
+  font-size: 1.8rem; }
+
 section {
+  font-size: 1.4rem;
   border-radius: 5px;
   background-color: #EADCBD; }
   section img {
@@ -61,17 +65,23 @@ section {
   margin-top: 150px;
   margin-bottom: 100px;
   display: flex;
-  padding-top: 100px; }
+  padding-top: 100px;
+  flex-direction: column; }
+  .about-1 p {
+    margin-bottom: 15px;
+    text-align: center; }
 
 .about {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   overflow: visible;
   align-items: center;
   margin: 100px 20px 100px 20px;
   padding: 100px 15px 5px 200px;
   height: auto;
   align-items: center; }
+  .about p {
+    margin-bottom: 15px; }
 
 .img-about {
   position: absolute;
@@ -164,22 +174,36 @@ section {
         width: 100px;
         height: 75px; }
 
-.description-1, .products, .button {
+.description-1, .products {
   text-align: center;
   background-color: #F5ECD7; }
+  .description-1 span, .products span {
+    color: #EB9C64;
+    font-size: 2rem; }
 
 .products {
   padding: 15PX 0 15PX 0; }
 
 form {
+  padding-bottom: 57px;
+  width: 100%;
   background-color: #F5ECD7;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding-bottom: 60px; }
-
-.button {
-  padding: 20px 0 20px 0; }
+  display: grid;
+  grid-template-columns: 150px 150px;
+  justify-content: center; }
+  form .button {
+    grid-column: 1/3;
+    text-align: center; }
+  form p label {
+    color: #EB9C64;
+    font-size: 1.5rem; }
+  form p button {
+    background-color: #8FBF9F; }
+  form p input {
+    color: #EB9C64;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #EB9C64; }
 
 .login-flex {
   /* background-color: #c2baa6; */
@@ -190,7 +214,15 @@ form {
   align-items: center;
   justify-content: start;
   font-size: 40px;
-  height: 600px; }
+  height: 80vh; }
+  .login-flex form {
+    background-color: #EADCBD;
+    display: block;
+    width: auto; }
+
+.login-flex * {
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 footer {
   background-color: #c2baa6;

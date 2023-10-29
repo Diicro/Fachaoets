@@ -118,7 +118,12 @@ section {
   justify-content: center;
   align-items: center;
   justify-items: center;
-  grid-template-areas: "Trending Trending Trending" "product-1 product-2 product-3" "katty    katty    katty"  "product-4 product-5 product-6" "doggy    doggy    doggy" "product-7 product-8 product-9"; }
+  grid-template-areas: "Trending Trending Trending"
+ "product-1 product-2 product-3"
+ "katty    katty    katty" 
+ "product-4 product-5 product-6"
+ "doggy    doggy    doggy"
+ "product-7 product-8 product-9"; }
   .grid h1 {
     justify-self: left;
     padding-left: 40px; }
@@ -214,7 +219,7 @@ form {
   align-items: center;
   justify-content: start;
   font-size: 40px;
-  height: 100vh; }
+  height: 680px; }
   .login-flex form {
     background-color: #EADCBD;
     display: block;
@@ -303,7 +308,12 @@ footer .footer-login {
     justify-content: center;
     align-items: center;
     justify-items: center;
-    grid-template-areas: "Trending Trending " "product-1  product-3" "katty       katty"  "product-4  product-6" "doggy        doggy" "product-7  product-9";
+    grid-template-areas: "Trending Trending "
+ "product-1  product-3"
+ "katty       katty" 
+ "product-4  product-6"
+ "doggy        doggy"
+ "product-7  product-9";
     margin-bottom: 50px; }
     .grid .product-2 {
       display: none; }
